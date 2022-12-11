@@ -1,7 +1,9 @@
 // Construcción de triángulos
 
+alert("¡Comencemos a jugar! Da click en Aceptar :)");
+
 // Variables globales
-let inicio = alert("¡Comencemos a jugar! Da click en Aceptar :)");
+
 let ladoA = prompt("Ingrese la medida (en cm) del lado A");
 let ladoB = prompt("Ingrese la medida (en cm) del lado B");
 let ladoC = prompt("Ingrese la medida (en cm) del lado C");
@@ -19,7 +21,8 @@ function construccionTriangulo() {
 }
 
 construccionTriangulo();
-while ((respuesta = prompt("¿Desea seguir?\nEscriba 'Si' o 'No'"))) {
+respuesta = prompt("¿Desea seguir?\nEscriba 'Si' o 'No'").toLowerCase();
+while (respuesta != "No" || respuesta != "no") {
   switch (respuesta) {
     case "Si":
       alert("Presione F5 para comenzar de nuevo!");
@@ -29,6 +32,6 @@ while ((respuesta = prompt("¿Desea seguir?\nEscriba 'Si' o 'No'"))) {
       break;
     default:
       alert("Error.");
+      respuesta = prompt("¿Desea seguir?\nEscriba 'Si' o 'No'").toLowerCase();
   }
-  return;
 }
