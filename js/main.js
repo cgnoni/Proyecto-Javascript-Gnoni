@@ -1,12 +1,16 @@
-// Construcción de triángulos
+// Triángulos: clasificación y propiedades
 
+//Comienzo
 alert("¡Comencemos a jugar! Da click en Aceptar :)");
 
 // Variables globales
 
-let ladoA = prompt("Ingrese la medida (en cm) del lado A");
-let ladoB = prompt("Ingrese la medida (en cm) del lado B");
-let ladoC = prompt("Ingrese la medida (en cm) del lado C");
+const triangulo = {
+  ladoA: prompt("Ingrese la medida (en cm) del lado A"),
+  ladoB: prompt("Ingrese la medida (en cm) del lado B"),
+  ladoC: prompt("Ingrese la medida (en cm) del lado C"),
+};
+let triangulosTipos = ["Equilátero", "Isósceles", "Escaleno"];
 let respuesta = 0;
 
 // Funciones
@@ -20,8 +24,34 @@ function construccionTriangulo() {
   }
 }
 
+// Clases
+class trianguloMetodo {
+  constructor(ladoA, ladoB, ladoC) {
+    this.ladoA = ladoA;
+    this.ladoB = ladoB;
+    this.ladoC = ladoC;
+  }
+  clasificacionLados() {
+    if (ladoA === ladoB && ladoA === ladoC && ladoB === ladoC) {
+      const equilatero = triangulosTipos.find(
+        (triang) => triang === "Equilátero"
+      );
+      console.log("Tu triángulo es " + equilatero);
+    } else if (ladoA == ladoB || ladoA == ladoC || ladoB == ladoC) {
+      const isosceles = triangulosTipos.find(
+        (triang) => triang === "Isósceles"
+      );
+      console.log("Tu triángulo es " + isosceles);
+    } else {
+      const escaleno = triangulosTipos.find((triang) => triang === "Escaleno");
+      console.log("Tu triángulo es " + escaleno);
+    }
+  }
+}
+
 construccionTriangulo();
-respuesta = prompt("¿Desea seguir?\nEscriba 'Si' o 'No'").toLowerCase();
+triangulo.clasificacionLados();
+respuesta = prompt("¿Desea seguir?\nEscriba 'Si' o 'No'");
 while (respuesta != "No" || respuesta != "no") {
   switch (respuesta) {
     case "Si":
@@ -32,6 +62,6 @@ while (respuesta != "No" || respuesta != "no") {
       break;
     default:
       alert("Error.");
-      respuesta = prompt("¿Desea seguir?\nEscriba 'Si' o 'No'").toLowerCase();
+      respuesta = prompt("¿Desea seguir?\nEscriba 'Si' o 'No'");
   }
 }
