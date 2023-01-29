@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Magia, Harry Potter, Mar del Plata, Wizard Town, Finite Incantatem, Lady Amata"
+    />
+    <meta
+      name="descrption"
+      content="Productos del emprendimiento `Finite Incantatem`, la comunidad mágica de Mar del Plata"
+    />
+    <link rel="shortcut icon" href="./img/fav-icon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <button class="close-menu" id="close-menu">
+          <i class="bi bi-x"></i>
+        </button>
+        <header>
+          <h1 class="logo">Finite Incantatem</h1>
+        </header>
+        <nav>
+          <ul class="menu">
+            <li>
+              <button id="todos" class="boton-menu boton-categoria active">
+                <i class="bi bi-hand-index-thumb-fill"></i> Todos los productos
+              </button>
+            </li>
+            <li>
+              <button id="Cositas lindas" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Cositas Lindas
+              </button>
+            </li>
+            <li>
+              <button id="Tazas" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Tazas
+              </button>
+            </li>
+            <li>
+              <button id="Varitas y Bufandas" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Varitas y Bufandas
+              </button>
+            </li>
+            <li>
+              <a class="boton-menu boton-carrito" href="./carrito.html">
+                <i class="bi bi-cart-fill"></i> Carrito
+                <span id="random" class="random">0</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <h2 class="titulo-principal" id="titulo-principal">
+          Todos los productos
+        </h2>
+        <div id="contenedor-productos" class="contenedor-productos">
+          <!-- Esto se va a rellenar con JS -->
+        </div>
+        <hr>
+        <div class="container">
+          <h2 class="titulo">Formulario de contacto</h2>
+          <form class="row g-3 mt-2 me-lg-2 align-items-center">
+            <div class="col-6">
+              <label class="form-label" for="name">Nombre *</label>
+              <input class="form-control" type="text" id="name" />
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="email">Correo Electronico *</label>
+              <input class="form-control" type="email" id="email" />
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="celular">Número de celular</label>
+              <input class="form-control" type="text" id="celular" />
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="redSocial"
+                >Red Social de preferencia</label
+              >
+              <input class="form-control" type="text" id="redSocial" />
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="floatingTextarea"></label>
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea"
+              >
+  Dejanos tu mensaje</textarea
+              >
+            </div>
+            <div class="col-6">
+              <div class="form-check">
+                <label class="form-check-label" for="checkTerms"
+                  >Acepta terminos y condiciones *</label
+                >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="checkTerms"
+                  value="Si"
+                />
+              </div>
+            </div>
+            <div class="col-6">
+              <button type="submit" class="btn btn-primary" id="ingresar">
+                Enviar formulario
+              </button>
+            </div>
+            <div class="col-6">
+              <button type="reset" class="btn btn-primary" id="borrar">
+                Limpiar formulario
+              </button>
+            </div>
+          </form>
+          <div class="mt-3 ms-5">
+            <h6>(*) Campos obligatorios.</h6>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- JavaScript BS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <!--JavaScript propio-->
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/formulario.js"></script>
+    <!--Libreria-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  </body>
+</html>

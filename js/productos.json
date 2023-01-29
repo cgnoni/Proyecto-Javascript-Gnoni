@@ -1,0 +1,197 @@
+[
+    {
+        "id": "varita-ron",
+        "nombre": "Varita Ron Weasley", 
+        "precio": 1700, 
+        "imagen": "./img/varitas-bufandas/varita-ron.png",
+        "categoria": {
+            "nombre": "varitas-bufandas",
+            "id": "Varitas y Bufandas"
+    } },
+    {
+        "id": "varita-hp",
+        "nombre": "Varita Harry Potter", 
+        "precio": 1700, 
+        "imagen": "./img/varitas-bufandas/varita-harrypotter.png",
+        "categoria": {
+            "nombre": "varitas-bufandas",
+            "id": "Varitas y Bufandas"
+    } },
+    {
+        "id": "varita-dumbledore",
+        "nombre": "Varita de Sauco", 
+        "precio": 1700, 
+        "imagen": "./img/varitas-bufandas/varita-sauco-dumbledore.jpeg",
+        "categoria": {
+            "nombre": "varitas-bufandas",
+            "id": "Varitas y Bufandas"
+    } },
+    {
+        "id": "lapivarita-voldemort",
+        "nombre": "Lapiz-varita Voldemort", 
+        "precio": 250, 
+        "imagen": "./img/varitas-bufandas/lapivarita-voldemort.png",
+        "categoria": {
+            "nombre": "varitas-bufandas",
+            "id": "Varitas y Bufandas"
+    } },
+    {
+        "id": "lapivarita-hp",
+        "nombre": "Lapiz-varita Harry Potter", 
+        "precio": 250, 
+        "imagen": "./img/varitas-bufandas/lapivarita-harrypotter.png",
+        "categoria": {
+            "nombre": "varitas-bufandas",
+            "id": "Varitas y Bufandas"
+    } },
+    {
+      "id": "bufanda-ravenclaw-rayada",
+      "nombre": "Bufanda Ravenclaw Modelo 1",
+      "precio": 6000,
+      "imagen": "./img/varitas-bufandas/bufanda-rayada-ravenclaw.png",
+      "categoria": {
+        "nombre": "varitas-bufandas",
+        "id": "Varitas y Bufandas"
+      }
+    },
+    {
+      "id": "bufanda-gryffindor-rayada",
+      "nombre": "Bufanda Gryffindor Modelo 1",
+      "precio": 6000,
+      "imagen": "./img/varitas-bufandas/bufanda-rayada-gryffindor.png",
+      "categoria": {
+        "nombre": "varitas-bufandas",
+        "id": "Varitas y Bufandas"
+      }
+    },
+    {
+      "id": "bufanda-slytherin-rayada",
+      "nombre": "Bufanda Slytherin Modelo 1",
+      "precio": 6000,
+      "imagen": "./img/varitas-bufandas/bufanda-rayada-slytherin.png",
+      "categoria": {
+        "nombre": "varitas-bufandas",
+        "id":"Varitas y Bufandas"
+      }
+    },
+    {
+      "id": "bufanda-hufflepuff-rayada",
+      "nombre": "Bufanda Hufflepuff Modelo 1",
+      "precio": 6000,
+      "imagen": "./img/varitas-bufandas/bufanda-rayada-hufflepuff.png",
+      "categoria": {
+        "nombre": "varitas-bufandas",
+        "id": "Varitas y Bufandas"
+      }
+    },
+    {
+      "id": "bufanda-hufflepuff-escrita",
+      "nombre": "Bufanda Hufflepuff Modelo 2",
+      "precio": 6000,
+      "imagen": "./img/varitas-bufandas/bufanda-escrita-hufflepuff.png",
+      "categoria": {
+        "nombre": "varitas-bufandas",
+        "id": "Varitas y Bufandas"
+      }
+    },
+    {
+      "id": "tazon-expresso-hp",
+      "nombre": "Tazon XXL Expresso",
+      "precio": 1600,
+      "imagen": "./img/tazas/tazon-xxl-expresso-harrypotter.png",
+      "categoria": {
+        "nombre": "tazas",
+        "id": "Tazas"
+      }
+    },
+    {
+      "id": "tazon-hp",
+      "nombre": "Tazon XXL",
+      "precio": 1600,
+      "imagen": "./img/tazas/tazon-xxl-harrypotter.png",
+      "categoria": {
+        "nombre": "tazas",
+        "id": "Tazas"
+      }
+    },
+    {
+      "id": "tazon-plataforma",
+      "nombre": "Tazon XXL Plataforma 9 3/4",
+      "precio": 1600,
+      "imagen": "./img/tazas/tazon-xxl-plataforma.png",
+      "categoria": {
+        "nombre": "tazas",
+        "id": "Tazas"
+      }
+    },
+    {
+      "id": "pulsera-hogwarts",
+      "nombre": "Pulsera de cuero trenzado Hogwarts",
+      "precio": 1000,
+      "imagen": "./img/cositas-lindas/pulsera-trenzada-hogwarts.png",
+      "categoria": {
+        "nombre": "cositas lindas",
+        "id": "Cositas lindas"
+      }
+    },
+    {
+      "id": "pulsera-ravenclaw",
+      "nombre": "Pulsera de cuero bordado Ravenclaw",
+      "precio": 1000,
+      "imagen": "./img/cositas-lindas/pulsera-bordado-ravenclaw.png",
+      "categoria": {
+        "nombre": "cositas lindas",
+        "id": "Cositas lindas"
+      }
+    },
+    {
+      "id": "giratiempos",
+      "nombre": "Giratiempos en estuche de madera", 
+      "precio": 3500,
+      "imagen": "./img/cositas-lindas/giratiempos-estuche-madera.png",
+      "categoria": {
+        "nombre": "cositas lindas",
+        "id": "Cositas lindas"
+      }
+    },
+    {
+      "id": "reloj-snitch",
+      "nombre": "Reloj de bolsillo Snitch Dorada",
+      "precio": 5000,
+      "imagen": "./img/cositas-lindas/reloj-snitch-harrypotter.png",
+      "categoria": {
+        "nombre": "cositas lindas",
+        "id": "Cositas lindas"
+      }
+    },
+    {
+      "id": "adorno-plataforma",
+      "nombre": "Adorno navideño Plataforma 9 3/4",
+      "precio": 1200,
+      "imagen": "./img/cositas-lindas/adorno-plataforma.png",
+      "categoria": {
+        "nombre": "cositas lindas",
+        "id": "Cositas lindas"
+      }
+    },
+    {
+      "id": "adorno-reliquia",
+      "nombre": "Adorno navideño Reliquias de la Muerte",
+      "precio": 1200,
+      "imagen": "./img/cositas-lindas/adorno-reliquia.png",
+      "categoria": {
+        "nombre": "cositas lindas",
+        "id": "Cositas lindas"
+      }
+    },
+    {
+      "id": "llavero-hogwarts",
+      "nombre": "Llavero Hogwarts en estuche de madera",
+      "precio": 3000,
+      "imagen": "./img/cositas-lindas/llavero-hogwarts-caja-madera.png",
+      "categoria": {
+        "nombre": "cositas lindas",
+        "id": "Cositas lindas"
+      }
+    }
+  ]
